@@ -1,0 +1,103 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+.menu
+{
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+}
+.links
+{
+    display: inline;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+a{
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px gainsboro;
+}
+/* pseudo class-syantax:selector:pseudo-class{property:value;} eg:hover*/
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+#welcome
+{
+    background: linear-gradient(aqua,aquamarine);
+    color: darkblue;
+}
+.profile
+{
+    margin-top: 50px;
+    border-radius: 50%;
+}
+h1{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#name
+{
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: 'Lobster', cursive;
+}
+h2
+{
+  color: red;
+    font-size: 30px;
+    font-weight: 300;
+    
+}
+#bio
+{
+    padding: 50px;
+    font-size: 25px;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin:  auto;
+}
+p{
+    font-size: 25px;
+}
+
+#writings a{
+    text-shadow: none;
+    text-decoration: underline;
+
+}
+#writings a:hover{
+    color: darkblue;
+}
+
+#contact
+{
+    background-color: red;
+}
+#contact iframe{
+    width: 100%;
+    margin-top: 30px;
+    
+}
+.contact_1 h3{
+    display: inline;
+}
+.contact_1 a{
+    text-shadow: none;
+    color: white;
+}
